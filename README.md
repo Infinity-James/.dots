@@ -6,8 +6,6 @@
 
 It's a bunch of zsh, vim, and tmux config files.
 
-Also mjolnir and nerdtool stuff.
-
 ## Terminal config
 
 Some basic stuff:
@@ -73,44 +71,8 @@ If you have this issue, try deleting `~/Library/Preferences/com.googlecode.iterm
 
 Also maybe try using Fira Code.
 
-## Menu bar replacement
-
-The other stuff is `mjolnir` which I installed as a .app.
-You need luarocks, and use it to install all the stuff in the `init.lua`.
-
-```
-luarocks install mjolnir.application
-luarocks install mjolnir.hotkey
-luarocks install mjolnir._asm.sys.audiodevice
-luarocks install mjolnir._asm.ipc
-luarocks install luautf8
-```
-
-Then nerdtool for the bar at the top (auto-hide menu bar in el capitan).
-
-All my nerdtool exports are for 1440, so you may have to relocate them.
-
-My nerdtool fork has some hack to make nerdtool switch (~90%) of the time, when
-you plug in an external monitor.
-
-I'm working on a basic swift app to solve all the monitor issues I've had with nerdtool.
-
-NeekTool… Coming soon…
-
 ## Dependencies
 
-- nerdtool (top bar)
-- mjolnir
-  - window snapping/management
-  - nerdtool (focused window widget)
-  - nerdtool (volume state widget)
-- shell
-  - nerdtool (date n time widget)
-  - nerdtool (net speeds widget)
-  - nerdtool (cpu usage widget)
-  - nerdtool (battery widget)
-- osx-cpu-temp
-  - nerdtool (cpu temp widget)
 - iterm2 beta
   - borderless window option
 - zsh
