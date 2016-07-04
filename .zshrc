@@ -50,14 +50,11 @@ alias mysql="/Applications/XAMPP/xamppfiles/bin/mysql"
 alias jenkins="nohup java -jar Developer/Tools/jenkins.war --httpPort=8081 ajp13Port=8010 > /tmp/jenkins.log 2>&1"
 alias gfm="git checkout master; git pull; git submodule update;"
 alias gdb='git branch | grep -v "master" | xargs git branch -D'
-alias cdpios="cd ~/Developer/Papers/Papers-iOS"
-alias cdpmac="cd ~/Developer/Papers/Papers-Mac"
 alias ghr='git reset --hard HEAD'
 alias gsu='git submodule update --init --recursive'
 alias gpull='git pull'
 alias gpush='git push'
 alias ddd='rm -rf ~/Library/Developer/Xcode/DerivedData/'
-alias gbmt='git add MTFoundation; git commit -m "Bump MTFoundation."'
 alias greset='git reset --hard HEAD'
 alias gresetmaster='git fetch origin; git reset --hard origin/master'
 alias gsta='git status'
